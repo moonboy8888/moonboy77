@@ -6,7 +6,7 @@
     <title>סתם, חחח</title>
     <style>
         body {
-            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            background: linear-gradient(135deg, #0a1f44, #1a3a70); /* כחול כהה עם גרדיאנט */
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -16,7 +16,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            color: white;
+            color: #ffffff; /* טקסט לבן לקריאות */
         }
 
         h1 {
@@ -39,19 +39,20 @@
 
         button {
             margin-top: 30px;
-            padding: 10px 20px;
+            padding: 10px 25px;
             font-size: 1.5rem;
             border: none;
-            border-radius: 10px;
+            border-radius: 12px;
             cursor: pointer;
-            background-color: #fff;
-            color: #ff5e62;
+            background-color: #ff9f43; /* כתום בהיר על רקע כחול */
+            color: #0a1f44; /* כחול כהה לטקסט הכפתור */
             font-weight: bold;
-            transition: transform 0.2s;
+            transition: transform 0.2s, background-color 0.3s;
         }
 
         button:hover {
             transform: scale(1.1);
+            background-color: #ffb86c; /* שינוי צבע קל בהנחת עכבר */
         }
 
         #extraText {
@@ -84,7 +85,7 @@
     <button id="revealButton">מיועד למי שלא הבין</button>
 
     <div id="extraText">
-        <span>הכוונה היא לאתר לא לסרטון!</span>
+        <span>הכוונה היא לאתר ולא לתשובה</span>
         <span class="emoji slyEmoji">😏</span>
     </div>
 
